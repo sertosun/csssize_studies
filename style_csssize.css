@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+h3 {
+  color: black;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  transition: all 1s;
+}
+
+h3:hover {
+  font-size: 1.5em;
+  transition: all 1s;
+}
+
+p {
+  margin: 15px 0;
+}
+
+:root {
+  font-size: 16px;
+}
+
+.pixel {
+  background-color: turquoise;
+  width: 400px;
+  height: 200px;
+  position: relative;
+}
+
+.pixelchild {
+  background-color: tomato;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 100;
+  top: 50;
+}
+
+.relative {
+  background-color: violet;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.relative p:nth-child(1) {
+  font-size: 4em;
+  background-color: rgb(75, 23, 172);
+}
+
+.relative p:nth-child(2) {
+  font-size: 2rem;
+  background-color: red;
+}
+
+.relative p:nth-child(3) {
+  height: 100vh;
+  background-color: orangered;
+}
+
+.relative p:nth-child(4) {
+  background-color: seagreen;
+  height: 100px;
+}
+
+.relative p:nth-child(5) {
+  width: 10vw;
+  background-color: yellow;
+}
+
+.relative p:nth-child(6) {
+  background-color: rgb(3, 58, 52);
+  width: 300px;
+}
+
+/* .first {
+  font-size: 4em;
+  background-color: rgb(75, 23, 172);
+}
+
+.second {
+  font-size: 2rem;
+  background-color: red;
+}
+
+.third {
+  height: 100vh;
+  background-color: rgb(140, 153, 63);
+}
+
+.fourth {
+  background-color: seagreen;
+  height: 100px;
+}
+
+.fifth {
+  width: 300vw;
+  background-color: rgb(95, 13, 34);
+}
+
+.sixth {
+  background-color: rgb(3, 58, 52);
+  width: 300px;
+} */
+
+.percentile {
+  width: 80%;
+  height: 20%;
+  background-color: rgb(156, 228, 11);
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.percentile_in {
+  width: 80%;
+  height: 20%;
+  background-color: rgb(60, 87, 7);
+  position: absolute;
+  bottom: 0;
+}
+
+.padding {
+  width: 300px;
+  height: 200px;
+  padding: 50px;
+  background-color: sienna;
+
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keinpadding {
+  width: 300px;
+  height: 200px;
+  background-color: sienna;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.border {
+  width: 300px;
+  height: 100px;
+  background-color: slateblue;
+  border: 30px solid black;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.keinborder {
+  width: 300px;
+  height: 100px;
+  background-color: slateblue;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
